@@ -1,0 +1,126 @@
+{
+  "contract_name": "EqualTransfer",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addressB",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "splitEther",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getBalanceAcctB",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getContractBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getBalanceAcctA",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addressA",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "addrA",
+          "type": "address"
+        },
+        {
+          "name": "addrB",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000576040516040806102de8339810160405280516020909101515b60008054600160a060020a03808516600160a060020a03199283161790925560018054928416929091169190911790555b50505b610279806100656000396000f300606060405236156100675763ffffffff60e060020a6000350416634526196e811461006c578063502b31d21461009557806361fcab48146100b15780636f9fb98a146100d0578063bbebfd9c146100ef578063f8b2cb4f1461010e578063fd4e4d7514610139575b610000565b3461000057610079610162565b60408051600160a060020a039092168252519081900360200190f35b61009d610171565b604080519115158252519081900360200190f35b34610000576100be6101e2565b60408051918252519081900360200190f35b34610000576100be610200565b60408051918252519081900360200190f35b34610000576100be610211565b60408051918252519081900360200190f35b34610000576100be600160a060020a036004351661022d565b60408051918252519081900360200190f35b346100005761007961023e565b60408051600160a060020a039092168252519081900360200190f35b600154600160a060020a031681565b600080546040516002340491600160a060020a0316906108fc83150290839085818181858888f1935050505080156101ce5750600154604051600160a060020a039091169082156108fc029083906000818181858888f193505050505b15156101d957610000565b600191505b5090565b6001546000906101fa90600160a060020a031661022d565b90505b90565b60006101fa3061022d565b90505b90565b600080546101fa90600160a060020a031661022d565b90505b90565b600160a060020a038116315b919050565b600054600160a060020a0316815600a165627a7a72305820b11479c384f00e26a483bdd518c83fef4bd5d7a3f63e5d346d19e6be6924b5ad0029",
+  "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0xb271f00d9757b5babcd424f802760a6d34132237",
+      "updated_at": 1501166900058
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1501166900058
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Equal Transfer</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Equal Transfer</h1>
+  <h3>This contract has <span class="black"><span id="balance"></h3>
+  <h3>Account A(0xb6416fa5eb2f7ada299bbed50fdfb8c2486b2dd6) has <span class="black"><span id="acct_a_balance"></h3>
+  <h3>Account B(0xd2dec7142e0d37e72c7eb54c9806f4b9e7f45d68) has <span class="black"><span id="acct_b_balance"></h3>
+  <br><label for="amount">Amount:</label><input type="text" id="amount" placeholder="e.g., 95"></input>
+  <br><label for="amount">Send ether to Equal Transfer smart contract</label><br><button id="send" onclick="App.splitTransfer()">Send</button>
+  <br><br>
+    <span id="status"></span>
+</body>
+</html>
